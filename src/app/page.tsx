@@ -1,6 +1,6 @@
+import CardItem from '@/components/molecules/Card/CardItem'
 import styles from './page.module.css'
-import CardItem from '@/components/Card/CardItem'
-import CardGraphic from '@/components/Card/CardGraphic'
+import CardGraphic from '@/components/molecules/Card/CardGraphic'
 
 export default function Home() {
   return (

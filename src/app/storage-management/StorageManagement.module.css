@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    /* overflow: hidden; */
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+.table thead td, .table tbody td {
+    padding: 5px 25px;
+    border: 1px solid black;
+}
+
+.table thead td {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.table thead {
+    background-color: rgb(200, 216, 228, 0.5);
+}
+
+.table tbody td{
+    font-size: 15px;
+}
+
+/* .table tbody tr:nth-child(odd) {
+
+} */
+
+.form_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

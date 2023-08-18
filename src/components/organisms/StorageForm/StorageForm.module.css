@@ -1,0 +1,9 @@
+.form_wrapper {
+    background-color: aliceblue;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
